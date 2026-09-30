@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>원고실 — 웹소설·종이책 원고를 쓰고 관리하는 곳</title>
+    <meta
+      name="description"
+      content="웹소설 연재부터 종이책·회지·커미션까지. 쓰고, 설정을 정리하고, 연재 일정을 챙기고, 워드·한글·PDF·전자책으로 내보냅니다."
+    />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1d" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="app/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="site.css" />
+    <script>
+      // 홈 화면에 설치한 웹 앱(옛 주소)으로 열었으면 소개 없이 바로 앱으로
+      if (matchMedia("(display-mode: standalone)").matches) location.replace("app/");
+    </script>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="./"><img src="app/icon.svg" alt="" width="28" height="28" />원고실</a>
+      <nav aria-label="사이트">
+        <a href="#features">기능</a>
+        <a href="#download">내려받기</a>
+        <a href="#faq">자주 묻는 것</a>
+      </nav>
+      <a class="btn btn-sm" href="app/">웹에서 쓰기</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>원고 한 편이 책이 되기까지,<br />한곳에서</h1>
+        <p class="lead">
+          웹소설 연재부터 종이책·회지·커미션까지. 쓰고, 설정을 정리하고, 연재 일정을 챙기고, 원하는 형식으로 내보냅니다.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="app/">웹에서 바로 쓰기</a>
+          <a class="btn" href="https://github.com/9w3am/wongosil/releases/download/v0.1.2/wongosil-setup-0.1.2.exe">Windows용 내려받기</a>
+        </div>
+        <p class="meta">버전 0.1.2 · 2026-09-30 · 원고는 내 기기에 저장됩니다</p>
+        <figure class="shot shot-hero">
+          <img src="shots/write.jpg" width="1440" height="900" alt="원고 쓰는 화면: 왼쪽에 회차 목록, 가운데에 본문" />
+        </figure>
+      </section>
+
+      <section id="features" class="features" aria-labelledby="f-title">
+        <h2 id="f-title">기능</h2>
+
+        <article class="feature">
+          <div class="f-text">
+            <h3>인물·용어·관계를 옆에 두고</h3>
+            <p>
+              인물 카드, 용어 사전, 관계와 호칭을 정리해 두면 본문에서 이름에 마우스를 올리기만 해도 설정이 뜹니다.
+              떡밥을 심은 회차와 회수할 회차도 함께 챙깁니다.
+            </p>
+          </div>
+          <figure class="shot">
+            <img src="shots/bible.jpg" width="1440" height="900" alt="설정 자료 화면" />
+          </figure>
+        </article>
+
+        <article class="feature">
+          <div class="f-text">
+            <h3>플롯은 보드와 타임라인으로</h3>
+            <p>
+              발단부터 결말까지 카드를 끌어 옮기고, 칸반·3막 곡선·긴장 그래프·개요 같은 레이아웃으로 바꿔 봅니다.
+              카드마다 회차를 이어 두면 어디까지 썼는지 한눈에 보입니다.
+            </p>
+          </div>
+          <figure class="shot">
+            <img src="shots/plot.jpg" width="1440" height="900" alt="플롯 보드 화면" />
+          </figure>
+        </article>
+
+        <article class="feature">
+          <div class="f-text">
+            <h3>연재 일정과 비축분</h3>
+            <p>
+              연재 요일을 고르면 비축 회차에 날짜가 차례로 붙습니다. 플랫폼별 분량 기준, 투고·공모전 기록, 기획서도 작품
+              안에 함께 둡니다.
+            </p>
+          </div>
+          <figure class="shot">
+            <img src="shots/serial.jpg" width="1440" height="900" alt="연재 일정 화면" />
+          </figure>
+        </article>
+
+        <article class="feature">
+          <div class="f-text">
+            <h3>필요한 형식으로 내보내기</h3>
+            <p>
+              연재 사이트에 붙여 넣을 글, 투고용 워드·한글 문서, 인쇄소에 넘길 PDF, 표준 검사를 통과하는 전자책까지.
+              고르는 대로 미리보기가 바로 바뀝니다.
+            </p>
+          </div>
+          <figure class="shot">
+            <img src="shots/export.jpg" width="1440" height="900" alt="내보내기 화면" />
+          </figure>
+        </article>
+
+        <ul class="more" aria-label="그 밖의 기능">
+          <li><strong>맞춤법·문장 부호</strong><span>표준국어대사전 기준 검사, 줄임표·쉼표 원칙 안내</span></li>
+          <li><strong>쪽 보기·확대</strong><span>종이 쪽처럼, 두 쪽 펼침, 25~300% 확대</span></li>
+          <li><strong>글꼴 8종</strong><span>명조 넷·고딕 넷, 내 글꼴 파일도 바로</span></li>
+          <li><strong>찾아 바꾸기</strong><span>이름을 바꾸면 이/가·을/를 조사도 맞춰서</span></li>
+          <li><strong>글 이미지 공유</strong><span>고른 문장을 SNS에 올릴 그림으로</span></li>
+          <li><strong>커미션·회지</strong><span>신청 받기부터 진행 보드, 정산까지</span></li>
+        </ul>
+      </section>
+
+      <section id="download" class="download" aria-labelledby="d-title">
+        <h2 id="d-title">내려받기</h2>
+        <div class="d-grid">
+          <div class="d-card">
+            <h3>웹판</h3>
+            <p>설치 없이 브라우저에서. 크롬·엣지·사파리 최신판. 휴대폰에서는 홈 화면에 추가하면 앱처럼 열립니다.</p>
+            <a class="btn btn-primary" href="app/">웹에서 바로 쓰기</a>
+          </div>
+          <div class="d-card">
+            <h3>Windows</h3>
+            <p>Windows 10·11(64비트). 설치 파일을 받아 실행하세요. 새 버전이 나오면 앱 안에서 알려 드립니다.</p>
+            <a class="btn" href="https://github.com/9w3am/wongosil/releases/download/v0.1.2/wongosil-setup-0.1.2.exe">설치 파일 받기 <span class="size">138MB</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq" aria-labelledby="q-title">
+        <h2 id="q-title">자주 묻는 것</h2>
+        <details>
+          <summary>원고는 어디에 저장되나요?</summary>
+          <p>
+            내 기기 안에 저장됩니다. Windows판은 작품 폴더에, 웹판은 브라우저 안의 저장소에 둡니다. 로그인하면 여러
+            기기에서 이어 쓸 수 있도록 계정에도 올립니다.
+          </p>
+        </details>
+        <details>
+          <summary>인터넷이 없어도 되나요?</summary>
+          <p>
+            Windows판은 인터넷 없이 씁니다. 웹판은 한 번 연 뒤로는 인터넷이 끊겨도 열립니다. 맞춤법 사전 조회와 기기 간
+            동기화만 인터넷이 필요합니다.
+          </p>
+        </details>
+        <details>
+          <summary>다른 기기로 옮길 수 있나요?</summary>
+          <p>로그인해 동기화하거나, 작품을 파일 하나로 내보낸 뒤 다른 기기에서 가져오면 됩니다.</p>
+        </details>
+        <details>
+          <summary>새 버전은 어떻게 받나요?</summary>
+          <p>
+            새 버전이 나오면 앱 오른쪽 아래에 알림이 뜹니다. 웹판은 쓰던 글을 저장하고 새로 불러오고, Windows판은 설치
+            파일을 받아 실행하면 됩니다. 쓰던 작품은 그대로 남습니다.
+          </p>
+        </details>
+        <details>
+          <summary>샘플 작품의 글은 어디서 왔나요?</summary>
+          <p>
+            대한민국 헌법 전문, 외교부 독도 누리집의 정부
+            기본입장, 「독도의 지속가능한 이용에 관한 법률」 조문입니다.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>원고실 0.1.2</span>
+      <span>글꼴: Pretendard·나눔명조·본명조·고운바탕 등 — SIL 오픈 폰트 라이선스</span>
+    </footer>
+  </body>
+</html>

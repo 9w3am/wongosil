@@ -1,0 +1,9 @@
+{
+  "version": "0.1.2",
+  "date": "2026-09-30",
+  "notes": [
+    "영어 화면(보기 설정 → 언어 · Language) 1차: 주요 화면 약 300곳",
+    "단축키: 번호·글머리 목록(Ctrl+Shift+7·8), 할 일(Ctrl+Shift+9), 위·아래 첨자(Ctrl+. / Ctrl+Shift+.), 문단 복제(Ctrl+D)"
+  ],
+  "win": "https://github.com/9w3am/wongosil/releases/download/v0.1.2/wongosil-setup-0.1.2.exe"
+}
