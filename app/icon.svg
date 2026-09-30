@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 원고실 아이콘: 원고지 칸(3×3)과 한 칸의 커서. 직접 그린 도형 -->
+  <rect width="512" height="512" rx="112" fill="#0a64d0"/>
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linejoin="round" opacity="0.95">
+    <rect x="112" y="112" width="288" height="288" rx="18"/>
+    <path d="M208 112v288M304 112v288M112 208h288M112 304h288"/>
+  </g>
+  <rect x="236" y="236" width="40" height="40" rx="6" fill="#ffffff"/>
+</svg>
