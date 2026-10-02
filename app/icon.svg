@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 「쪽」 앱 아이콘(ADR-047): 파란 바탕 + 모서리 접힌 흰 종이 한 장 + 쪽 -->
+  <rect width="512" height="512" rx="112" fill="#0a64d0"/>
+  <path d="M138 94h162l84 84v214a26 26 0 0 1-26 26H138a26 26 0 0 1-26-26V120a26 26 0 0 1 26-26z" fill="#ffffff"/>
+  <path d="M300 94v58a26 26 0 0 0 26 26h58z" fill="#bcd3f3"/>
+  <text x="248" y="350" text-anchor="middle" font-family="'Malgun Gothic','Noto Sans KR',sans-serif" font-weight="700" font-size="150" fill="#0a64d0">쪽</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 「쪽」 파비콘: 작게 보여도 알아보게 글자 없이 접힌 종이 한 장 -->
+  <rect width="32" height="32" rx="7" fill="#0a64d0"/>
+  <path d="M8 6h11l5 5v15H8z" fill="#ffffff"/>
+  <path d="M19 6v5h5z" fill="#bcd3f3"/>
+</svg>
